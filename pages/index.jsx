@@ -15,12 +15,14 @@ const Home = () => {
 
       {/* Meta Information */}
       <Head>
-        <title>Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
-        <meta name="description" content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap" />
+        <title>Buildify — Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
+        <meta
+          name="description"
+          content="Free Next.js website template for builders, contractors and construction firms built with Bootstrap."
+        />
       </Head>
 
       <main className="content-wrapper overflow-hidden">
-
         {/* Hero Section */}
         <Hero />
 
@@ -50,3 +52,4 @@ const Home = () => {
 };
 
 export default Home;
+

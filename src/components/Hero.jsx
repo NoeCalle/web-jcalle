@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="text-center">
               {/* Main headline with animation */}
               <h3 className="fs-56 ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s oswald">
-                Residential Construction Company in Location
+                Servicios de Consultoría en Ingeniería Civil
               </h3>
 
               {/* Subheadline with animation */}

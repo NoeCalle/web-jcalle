@@ -1,7 +1,7 @@
 import { Fragment, useRef } from 'react';
 import { useRouter } from 'next/router';
 import useSticky from 'hooks/useSticky';
-import Image from 'next/image.js';
+import Image from 'next/image';
 import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
 
@@ -41,13 +41,9 @@ const Navbar = ({
         <NextLink
           href="/"
           title={
-            <Image
-              unoptimized={true}
-              alt="Logo | Buildify"
-              src="/img/logo.webp"
-              width={190}
-              height={70}
-            />
+            <span className="fw-bold text-dark" style={{ fontSize: '2rem', lineHeight: 1 }}>
+              JCM Ingenieros
+            </span>
           }
         />
       </div>
@@ -63,14 +59,13 @@ const Navbar = ({
           <NextLink
             href="/"
             title={
-              <Image
-                alt="Logo | Buildify"
-                src="/img/logo.webp"
-                width={160}
-                height={60}
-                unoptimized={true}
+              <span
+                className="fw-bold text-dark"
+                style={{ fontSize: '1.6rem', lineHeight: 1 }}
                 data-bs-dismiss="offcanvas"
-              />
+              >
+                JCM Ingenieros
+              </span>
             }
           />
           <button
