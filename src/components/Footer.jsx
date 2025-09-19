@@ -114,7 +114,7 @@ const Footer = () => {
           {/* Footer copyright */}
           <div className="d-md-flex align-items-center justify-content-center">
             <p className="mb-2 mb-lg-0 text-center roboto">
-              © {currentYear} Buildify. All rights reserved
+              © {currentYear} JCM. All rights reserved
             </p>
           </div>
         </div>
